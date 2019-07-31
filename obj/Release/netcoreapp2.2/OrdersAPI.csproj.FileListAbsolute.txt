@@ -1,0 +1,14 @@
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\bin\Release\netcoreapp2.2\OrdersAPI.deps.json
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\bin\Release\netcoreapp2.2\OrdersAPI.runtimeconfig.json
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\bin\Release\netcoreapp2.2\OrdersAPI.runtimeconfig.dev.json
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\bin\Release\netcoreapp2.2\OrdersAPI.dll
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\bin\Release\netcoreapp2.2\OrdersAPI.pdb
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\obj\Release\netcoreapp2.2\OrdersAPI.csproj.CoreCompileInputs.cache
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\obj\Release\netcoreapp2.2\OrdersAPI.RazorAssemblyInfo.cache
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\obj\Release\netcoreapp2.2\OrdersAPI.RazorAssemblyInfo.cs
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\obj\Release\netcoreapp2.2\OrdersAPI.AssemblyInfoInputs.cache
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\obj\Release\netcoreapp2.2\OrdersAPI.AssemblyInfo.cs
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\obj\Release\netcoreapp2.2\OrdersAPI.RazorTargetAssemblyInfo.cache
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\obj\Release\netcoreapp2.2\OrdersAPI.dll
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\obj\Release\netcoreapp2.2\OrdersAPI.pdb
+E:\FSDTraining\DotnetCore\CaseStudy\OrdersAPI\OrdersAPI\obj\Release\netcoreapp2.2\OrdersAPI.csprojAssemblyReference.cache
