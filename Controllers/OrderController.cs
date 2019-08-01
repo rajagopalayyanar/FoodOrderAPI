@@ -21,8 +21,8 @@ namespace OrdersAPI.Controllers
         }
 
         [HttpGet]
-        //[HttpGet(Name = "GetAllRestaurant")]
         [ProducesResponseType((int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
         public async Task<ActionResult<List<OrderDetails>>> GetOrders()
         {
             var orders = await _orderService.GetOrders();
@@ -31,13 +31,13 @@ namespace OrdersAPI.Controllers
                 return NotFound("There is no order placed in past");
             }
 
-            return Ok(orders);
+            return Ok();
         }
 
         [HttpGet("{id}")]
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
-        public async Task<ActionResult<OrderDetails>> GetOrderAsync([FromRoute] string id)
+        public async Task<ActionResult<List<OrderDetails>>> GetOrderAsync([FromRoute] string id)
         {
 
             var order = await _orderService.GetOrder(id);

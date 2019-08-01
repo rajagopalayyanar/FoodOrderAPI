@@ -23,10 +23,10 @@ namespace OrdersAPI.ServiceRepository
             var orders = await _orderDBContext.OrderDetails.FindAsync(order => true);
             return orders.ToList();
         }
-        public async Task<OrderDetails> GetOrder(string orderId)
+        public async Task<List<OrderDetails>> GetOrder(string orderemailId)
         {
-            var order = await _orderDBContext.OrderDetails.FindAsync<OrderDetails>(ord => ord.id == orderId);
-            return order.FirstOrDefault();
+            var order = await _orderDBContext.OrderDetails.FindAsync<OrderDetails>(ord => ord.EmailID == orderemailId);
+            return order.ToList();
         }
         public void OrderCancel(string orderId, OrderDetails orderIn)
         {
